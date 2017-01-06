@@ -1,0 +1,63 @@
+
+
+/* ----- header ----- */
+
+.logotexttop {
+	text-align: center;
+}
+
+#logo {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#logotop {
+	border-radius: 150px;
+	width: 200px;
+	height: 200px;
+}
+
+
+/* ----- Parcours ----- */
+
+.parcours {
+  	background-image: url(../images/backgr1-red.png); 
+}
+
+#parcourstitre {
+	text-align: center;
+	color: white;
+}
+
+#parcourstexte {
+	color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+/* ----- Formation ----- */
+
+.formation {
+	background-image: url(../images/backgr2-blue.png)
+}
+
+#formationtitre {
+	text-align: center;
+	color: black;
+}
+
+#formationtexte {
+	color: black;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/* ----- apt-compt ----- */
+
+.imageright {
+	background-image: url();
+	background-size: cover;
+	width: 100%;
+	height:auto;
+	display: block
+}
