@@ -46,10 +46,11 @@ header {
 	height : 100vh;
 	background-image: url('../images/laptop.jpg');
 	background-size: cover;
+	display: flex;
+	align-items: center;
 }
 
 .jumbotron {
-	margin-top: 8vh;
 	background-color: transparent;
 	text-align: center;
 	font: 'Montserrat', sans-serif;
@@ -306,7 +307,7 @@ div.navbar-collapse.menu.collapse.in {
 	padding: 10px 25px;
 }
 
-.container .thumbnail .textthumbnail>h4 {
+.thumbnail .textthumbnail>h4 {
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #003333;
@@ -314,16 +315,21 @@ div.navbar-collapse.menu.collapse.in {
 
 /* ----- Experience ----- */
 
-.experience {
-	background-color: #F8F8F8;
-	padding-top: 50px;
-	padding-bottom: 100px;
+.exp {
+	margin-top: 2em;
+	margin-bottom: 6em;
+}
+
+.exp-title {
+	padding-bottom: 2em;
+}
+
+.for-title {
+	padding-bottom: 1em;
 }
 
 .experience>h2 {
 	text-align: center;
-	margin-bottom: 30px;
-	margin-bottom: 40px;
 	color: #003333;
 	text-transform: uppercase;
 }
@@ -800,4 +806,8 @@ h1 {
 
 @keyframes come-in {
   to { transform: translateY(0); }
+}
+
+
+
 }
