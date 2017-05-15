@@ -1,3 +1,9 @@
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// JE SUIS DISPONIBLE POUR UN STAGE DU 21 AOUT AU 27 OCTOBRE 2017 !!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 $(document).ready(function () {
 
     var stickyNavTop = $('.menuGen').offset().top;
@@ -18,7 +24,7 @@ $(document).ready(function () {
         stickyNav();
     });
 
-    /* konami code */
+    /* konami code - Essaye, ça retourne la tête !*/
     var k = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65],
         n = 0;
     $(document).keydown(function (e) {
