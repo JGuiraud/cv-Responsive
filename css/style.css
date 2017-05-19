@@ -589,7 +589,7 @@ div#page {
 }
 
 .fa-arrow-circle-up {
-	font-size: 80px;
+	font-size: 65px;
 }
 
 /* ----------- scrollbar ------------ */
@@ -638,6 +638,10 @@ body::-webkit-scrollbar-thumb {
 
 /* col-sm- */
 @media (max-width: 991px) {
+
+	.scroll-btn {
+		display:none;
+	}
 
 		.navbar-brand {
 		padding-left: 0px;
@@ -811,3 +815,6 @@ h1 {
 
 
 }
+
+
+
