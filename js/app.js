@@ -47,7 +47,6 @@ $(document).ready(function () {
       var num = Math.floor(Math.random() * colours.length);
       $("#cptces").append("<p class='competence " + competences[i] + "'>" + competences[i] + "</p>");
       // $('.' + competences[i]).css("background-color", colours[num]);
-      // $('.' + competences[i]).css("background-image", 'linear-gradient(-225deg, #9696df 0%, #61d2d6 100%)');
       $('.' + competences[i]).addClass("backgroundGradient");
    }
 
